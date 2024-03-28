@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FullCar</title>
+    <img src="dd.png" alt="falha na imagem " width="400" height="233">
+</head>
+<body style="background: linear-gradient(to right,#00CED1 7%, #00BFFF 90%  ) #000080 ">
+    <form action="" method="post" enctype="multipart/form-data" > 
+        <fieldset> 
+             <fieldset> 
+                <legend> <i><b> Dados Dos Caros </b></i> </legend>
+                <label> Tipo do Veículo:</label>
+                <label>
+                    <select name="Categoria" id="Categoria" >
+                     <option value="Novo" >Novo</option>
+                     <option value="Usado" >Usado </option>
+                    </select> 
+                </label>
+                <label> Categoria: </label>
+                <label>
+                    <select name="Categoria" id="Categoria" >
+                     <option value="Hatch" >Hatch</option>
+                     <option value="SUV" >SUV </option>
+                     <option value="Sedã" >Sedã </option>
+                     <option value="Picape" >Picape</option>
+                     <option value="Utilitário" >Utilitário</option>
+                     <option value="Perua" >Perua</option>
+                     <option value="Minivan" >Minivan</option>
+                     <option value="Conversível" >Conversível</option>
+                     <option value="outros" >outros</option>
+
+                    </select> 
+                </label>
+                <label> Fabricante: </label>
+                <label>
+                    <select name="Categoria" id="Categoria" >
+                     <option value="Fiat" >Fiat</option>
+                     <option value="Ford" >Ford </option>
+                     <option value="Chevrolet" >Chevrolet </option>
+                     <option value="Volskwagen" >Volskwagen</option>
+                     <option value="Citroën" >Citroën</option>
+                     <option value="Renault" >Renault</option>
+                     <option value="Kia" >Kia</option>
+                     <option value="outros" >outros</option>
+
+                    </select> 
+                </label>
+                <br/>
+                <p> 
+                <br/>
+                <label>Modelo:</label>
+                <br/>
+                </n><input type="text" name="Modelo" id="Modelo" placeholder=" EX:Clasique "required/>
+                 <br/>
+                 <label>Quilometragem:</label>
+                 <br/>
+                </n><input type="text" name="Modelo" id="Modelo" placeholder=" EX:Clasique "required/>
+                <br/>
+                <label>Preço:</label>
+                <br/>
+                <input type="text" name="Modelo" id="Modelo" placeholder=" EX:Clasique "required/>
+                <br/>
+                <label>Placa:</label>
+                <br/>
+                <input type="text" name="Preço" id="Preço" placeholder=" EX:Clasique "required/>
+                <br/>
+                <p> 
+                <br/>
+                <label> Câmbio : </label>
+                <label>
+                    <select name="Câmbio" id="Câmbio" >
+                     <option value="manual" > manual</option>
+                     <option value="automático" >automático </option>
+                    </select> 
+                </label>
+                <label> Blindagem: </label>
+                <label>
+                    <select name="Blindagem" id="Blindagem" >
+                     <option value="sim" >sim</option>
+                     <option value="não" >não</option>
+                    </select> 
+                </label>
+                <label>Número de portas :</label>
+                <input  type="number" name="number" id="numero" min="2" step="2" max="4" value="2" placeholder="12"/>
+                <label> Combustível: </label>
+                <label>
+                    <select name=": Combustível" id="Combustível" >
+                     <option value="Etanol" >Etanol</option>
+                     <option value="Gasolina" >Gasolina </option>
+                     <option value="Diesel" >Diesel </option>
+                     <option value="Flex" >Flex </option>
+                     <option value="outros" >outros</option>
+                    </select> 
+                </label>
+                <br>
+                <p> 
+                <br/>
+                <label>  Adicionar imagem </label>
+                <input type="file" name="arquivo" id="arquivo" accept=".jpg"/>
+                <br/>
+
+                <label>Informasois a dicionais </label><br/> 
+          <textarea cols="80" rows="10" name="informacao" id="informacao" maxlength="400" placeholder=" digite a qui ..."></textarea><br>
+
+
+
+
+             </fieldset>
+        </fieldset>
+
+        <input type="submit" value="Enviar"/>
+        <input type="reset" value="LInpar"/>
+    
+</body>
+</html>
